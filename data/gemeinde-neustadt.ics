@@ -1,0 +1,78 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//NAK Gemeinde Neustadt//info-display//DE
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Termine Gemeinde Neustadt
+BEGIN:VEVENT
+SUMMARY:Zef 3\,16.17
+DTSTART;VALUE=DATE:20260701
+DTEND;VALUE=DATE:20260702
+UID:gemeinde-77778714bdca08317f7475a3ecbd110b@info-display.local
+DESCRIPTION:Wochentag: Mittwoch\nDatum: 01.07.2026\nUhrzeit: Kein Gottesdi
+ enst\nTextwort: Zef 3\,16.17\nDienstleiter: -
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:1Petr 4\,6
+DTSTART:20260705T100000
+DTEND:20260705T110000
+UID:gemeinde-dffb36f93a29f67f72767ae7c83faa8c@info-display.local
+DESCRIPTION:Wochentag: Sonntag\nDatum: 05.07.2026\nUhrzeit: 10:00\nTextwor
+ t: 1Petr 4\,6\nDienstleiter: Pr Streichert
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Phil 1\,9
+DTSTART;VALUE=DATE:20260708
+DTEND;VALUE=DATE:20260709
+UID:gemeinde-a61a5b66d22d4bf341214b140adc4325@info-display.local
+DESCRIPTION:Wochentag: Mittwoch\nDatum: 08.07.2026\nUhrzeit: Kein Gottesdi
+ enst\nTextwort: Phil 1\,9\nDienstleiter: -
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Mt 6\,10
+DTSTART:20260712T100000
+DTEND:20260712T110000
+UID:gemeinde-adf744de0a0dc428f14c76c29e3ac65f@info-display.local
+DESCRIPTION:Wochentag: Sonntag\nDatum: 12.07.2026\nUhrzeit: 10:00\nTextwor
+ t: Mt 6\,10\nDienstleiter: Pr Herzig
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Mt 10\,40
+DTSTART;VALUE=DATE:20260715
+DTEND;VALUE=DATE:20260716
+UID:gemeinde-042e85242c2cdccbbf3a5fb6712fd255@info-display.local
+DESCRIPTION:Wochentag: Mittwoch\nDatum: 15.07.2026\nUhrzeit: Kein Gottesdi
+ enst\nTextwort: Mt 10\,40\nDienstleiter: -
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Mt 6\,11
+DTSTART:20260719T100000
+DTEND:20260719T110000
+UID:gemeinde-0d918baa6a82fa2967ada7279495292a@info-display.local
+DESCRIPTION:Wochentag: Sonntag\nDatum: 19.07.2026\nUhrzeit: 10:00\nTextwor
+ t: Mt 6\,11\nDienstleiter: Pr Streichert
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:1Kön 19\,7
+DTSTART;VALUE=DATE:20260722
+DTEND;VALUE=DATE:20260723
+UID:gemeinde-7400260b01d657c6297c7cc8b0192977@info-display.local
+DESCRIPTION:Wochentag: Mittwoch\nDatum: 22.07.2026\nUhrzeit: Kein Gottesdi
+ enst\nTextwort: 1Kön 19\,7\nDienstleiter: -
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Mt 6\,12
+DTSTART:20260726T100000
+DTEND:20260726T110000
+UID:gemeinde-ad4eeb9c02dc782eb477384be5861c6a@info-display.local
+DESCRIPTION:Wochentag: Sonntag\nDatum: 26.07.2026\nUhrzeit: 10:00\nTextwor
+ t: Mt 6\,12\nDienstleiter: BE Christmann
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lk 18\,9
+DTSTART;VALUE=DATE:20260729
+DTEND;VALUE=DATE:20260730
+UID:gemeinde-a3608547cc47a9e4971f25af4136085d@info-display.local
+DESCRIPTION:Wochentag: Mittwoch\nDatum: 29.07.2026\nUhrzeit: Kein Gottesdi
+ enst\nTextwort: Lk 18\,9\nDienstleiter: -
+END:VEVENT
+END:VCALENDAR

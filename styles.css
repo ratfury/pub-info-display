@@ -1,0 +1,357 @@
+:root {
+  color-scheme: dark;
+  --bg-overlay: rgba(8, 16, 28, 0.78);
+  --surface: rgba(255, 255, 255, 0.08);
+  --surface-strong: rgba(255, 255, 255, 0.12);
+  --border: rgba(255, 255, 255, 0.18);
+  --text: #f5f7fb;
+  --text-muted: #c8d2e0;
+  --accent: #8ec5ff;
+  --accent-strong: #ffd27a;
+  --danger: #ff8a8a;
+  --focus: #ffffff;
+  --font: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  --shadow: 0 10px 40px rgba(0, 0, 0, 0.35);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  font-family: var(--font);
+  color: var(--text);
+  background: #081018;
+}
+
+.page {
+  position: relative;
+  font-family: var(--font);
+  color: var(--text);
+  background: #081018;
+}
+
+.page-board {
+  height: 100vh;
+  height: 100dvh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  padding: clamp(0.4rem, 0.8vw, 0.9rem);
+  --fit-scale-gemeinde: 1;
+  --fit-scale-bezirk: 1;
+}
+
+.background-layer {
+  position: fixed;
+  inset: 0;
+  background: url("assets/background.jpeg") center center / cover no-repeat;
+  z-index: -2;
+}
+
+.overlay {
+  position: fixed;
+  inset: 0;
+  background: var(--bg-overlay);
+  z-index: -1;
+}
+
+.overlay-strong {
+  background: rgba(8, 16, 28, 0.88);
+}
+
+.site-header {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: clamp(0.35rem, 0.7vw, 0.75rem);
+  align-items: center;
+  flex-shrink: 0;
+  margin-bottom: clamp(0.2rem, 0.4vw, 0.4rem);
+}
+
+.header-text h1 {
+  margin: 0;
+  font-size: clamp(1.67rem, 2.26vw, 3.01rem);
+  line-height: 1.05;
+  max-width: none;
+}
+
+.month-label {
+  margin: 0.15rem 0 0;
+  font-size: clamp(1.6rem, 2vw, 2.51rem);
+  color: var(--accent-strong);
+  font-weight: 600;
+}
+
+.clock-panel {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 0.75rem;
+  padding: clamp(0.4rem, 0.7vw, 0.7rem);
+  box-shadow: var(--shadow);
+  min-width: clamp(7rem, 8vw, 9rem);
+}
+
+.clock-analog-wrap {
+  width: clamp(5.5rem, 6.05vw, 7.25rem);
+  margin: 0 auto;
+}
+
+.analog-clock {
+  width: 100%;
+  height: auto;
+}
+
+.clock-face {
+  fill: rgba(255, 255, 255, 0.08);
+  stroke: var(--border);
+  stroke-width: 2;
+}
+
+.tick,
+.hand {
+  stroke: var(--text);
+  stroke-linecap: round;
+}
+
+.tick {
+  stroke-width: 3;
+}
+
+.hour-hand {
+  stroke-width: 6;
+}
+
+.minute-hand {
+  stroke-width: 4;
+}
+
+.second-hand {
+  stroke: var(--accent);
+  stroke-width: 2;
+}
+
+.clock-center {
+  fill: var(--accent-strong);
+}
+
+.clock-digital {
+  margin: 0.5rem 0 0;
+  text-align: center;
+  font-size: clamp(1.43rem, 1.51vw, 2rem);
+  color: var(--text-muted);
+  font-weight: 600;
+}
+
+.board-columns {
+  flex: 1;
+  min-height: 0;
+  display: grid;
+  grid-template-columns: 1.35fr 1.025fr 1.025fr;
+  gap: clamp(0.35rem, 0.6vw, 0.75rem);
+}
+
+.column {
+  container-type: size;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 0.75rem;
+  padding: clamp(0.25rem, 0.45vw, 0.5rem);
+  box-shadow: var(--shadow);
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+  overflow: hidden;
+}
+
+.column--gemeinde {
+  background: rgba(255, 255, 255, 0.11);
+  border-color: rgba(255, 210, 122, 0.45);
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.4), inset 0 0 0 1px rgba(255, 210, 122, 0.12);
+}
+
+.column-title {
+  margin: 0 0 0.2rem;
+  font-size: clamp(1.37rem, 1.67vw, 2.05rem);
+  color: var(--accent);
+  font-weight: 700;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 0.15rem;
+  flex-shrink: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.column--gemeinde .column-title {
+  font-size: clamp(1.52rem, 2.05vw, 2.42rem);
+  color: var(--accent-strong);
+  border-bottom-width: 2px;
+  border-bottom-color: rgba(255, 210, 122, 0.5);
+}
+
+.column-cards {
+  display: flex;
+  flex-direction: column;
+  gap: clamp(0.1rem, 0.2vw, 0.25rem);
+  flex: 1;
+  min-height: 0;
+  overflow: hidden;
+}
+
+.card {
+  container-type: size;
+  background: var(--surface-strong);
+  border: 1px solid var(--border);
+  border-radius: 0.4rem;
+  padding: 0.15em 0.45em;
+  flex: 1 1 0;
+  min-height: 0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.08em;
+}
+
+.column--gemeinde .card {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: rgba(255, 255, 255, 0.22);
+}
+
+.card-line {
+  margin: 0;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.35em;
+  line-height: 1.15;
+  white-space: normal;
+  overflow: visible;
+}
+
+.card-sep {
+  color: var(--text-muted);
+  opacity: 0.5;
+  flex-shrink: 0;
+}
+
+.card--gemeinde .card-gemeinde-main {
+  font-size: calc(min(34cqh, 2.6vw) * var(--fit-scale-gemeinde));
+  font-weight: 700;
+}
+
+.card--gemeinde .card-gemeinde-details {
+  font-size: calc(min(26cqh, 1.9vw) * var(--fit-scale-gemeinde));
+  font-weight: 600;
+}
+
+.card--gemeinde .card-gemeinde-weekday {
+  color: var(--accent-strong);
+}
+
+.card--gemeinde .card-gemeinde-date {
+  color: var(--text);
+  font-size: 1.2em;
+  font-weight: 800;
+}
+
+.card--gemeinde .card-gemeinde-time {
+  color: var(--text-muted);
+  font-weight: 600;
+}
+
+.card--gemeinde .card-gemeinde-status--yes {
+  color: var(--accent);
+}
+
+.card--gemeinde .card-gemeinde-status--no {
+  color: #ffb4a2;
+}
+
+.card--gemeinde .card-gemeinde-lead {
+  color: var(--text);
+}
+
+.card--gemeinde .card-gemeinde-textwort {
+  color: var(--text-muted);
+}
+
+.card--bezirk .card-bezirk-main {
+  font-size: calc(min(40cqh, 1.65vw) * var(--fit-scale-bezirk));
+  font-weight: 500;
+  line-height: 1.15;
+}
+
+.card--bezirk .card-bezirk-location-line {
+  font-size: calc(min(30cqh, 1.35vw) * var(--fit-scale-bezirk));
+  font-weight: 500;
+  line-height: 1.15;
+  color: var(--text-muted);
+  white-space: normal;
+}
+
+.card--bezirk .card-bezirk-weekday {
+  color: var(--accent-strong);
+  font-weight: 700;
+}
+
+.card--bezirk .card-bezirk-date {
+  font-weight: 800;
+  font-size: 1.2em;
+}
+
+.card--bezirk .card-bezirk-time {
+  font-weight: 600;
+  color: var(--text-muted);
+}
+
+.card--bezirk .card-bezirk-title {
+  font-weight: 700;
+}
+
+.state {
+  border-radius: 0.9rem;
+  padding: 0.75rem;
+  font-size: calc(clamp(0.9rem, 1vw, 1.2rem) * var(--fit-scale-bezirk));
+  flex-shrink: 0;
+}
+
+.state-loading {
+  background: rgba(255, 255, 255, 0.05);
+  color: var(--text-muted);
+}
+
+.state-empty {
+  background: rgba(255, 255, 255, 0.04);
+  color: var(--text-muted);
+  text-align: center;
+}
+
+.state-error {
+  background: rgba(255, 80, 80, 0.15);
+  color: var(--danger);
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 1400px) {
+  .board-columns {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 900px) {
+  .header-text h1 {
+    max-width: none;
+  }
+}

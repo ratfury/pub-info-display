@@ -1,0 +1,53 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//NAK Gemeinde Neustadt//info-display//DE
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Termine Hannover-Südwest
+BEGIN:VEVENT
+SUMMARY:Probe Jugendchor
+DTSTART:20260703T190000
+DTEND:20260703T200000
+UID:bezirk-811391d660f808823e44daa4a56506bd@info-display.local
+DESCRIPTION:Wochentag: Freitag\nDatum: 03.07.2026\nUhrzeit: 19:00\nWas: Pr
+ obe Jugendchor\nOrt: H-Süd
+LOCATION:H-Süd
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Trauer-Café\, Mail-Adresse: trauerbegleitung@nak-hannover-suedwes
+ t.de
+DTSTART:20260705T150000
+DTEND:20260705T160000
+UID:bezirk-8cde5f6ad1ef926a73e4e69003a661c0@info-display.local
+DESCRIPTION:Wochentag: Sonntag\nDatum: 05.07.2026\nUhrzeit: 15:00\nWas: Tr
+ auer-Café\, Mail-Adresse: trauerbegleitung@nak-hannover-suedwest.de\nOrt:
+  H-Süd
+LOCATION:H-Süd
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Probe Bezirkschor 60+ (entfällt)
+DTSTART:20260706T160000
+DTEND:20260706T170000
+UID:bezirk-62678f594592956c60bc9a4ac81657b0@info-display.local
+DESCRIPTION:Wochentag: Montag\nDatum: 06.07.2026\nUhrzeit: 16:00\nWas: Pro
+ be Bezirkschor 60+ (entfällt)\nOrt: Langenhagen
+LOCATION:Langenhagen
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Chorprobe für Bezirks-GD
+DTSTART:20260720T193000
+DTEND:20260720T203000
+UID:bezirk-549b9c685616673d8ae87e3588f7c3ce@info-display.local
+DESCRIPTION:Wochentag: Montag\nDatum: 20.07.2026\nUhrzeit: 19:30\nWas: Cho
+ rprobe für Bezirks-GD\nOrt: H-Badenstedt
+LOCATION:H-Badenstedt
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Chorprobe für Bezirks-GD
+DTSTART:20260731T193000
+DTEND:20260731T203000
+UID:bezirk-1f9392f5ef5191f3adae7fff639a5399@info-display.local
+DESCRIPTION:Wochentag: Freitag\nDatum: 31.07.2026\nUhrzeit: 19:30\nWas: Ch
+ orprobe für Bezirks-GD\nOrt: H-Süd
+LOCATION:H-Süd
+END:VEVENT
+END:VCALENDAR
