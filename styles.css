@@ -1,17 +1,31 @@
 :root {
-  color-scheme: dark;
-  --bg-overlay: rgba(8, 16, 28, 0.78);
-  --surface: rgba(255, 255, 255, 0.08);
-  --surface-strong: rgba(255, 255, 255, 0.12);
-  --border: rgba(255, 255, 255, 0.18);
-  --text: #f5f7fb;
-  --text-muted: #c8d2e0;
-  --accent: #8ec5ff;
-  --accent-strong: #ffd27a;
-  --danger: #ff8a8a;
-  --focus: #ffffff;
+  color-scheme: light;
+  --nak-blue: #004a99;
+  --nak-blue-dark: #003e7e;
+  --nak-blue-light: #5b9bd5;
+  --nak-blue-soft: #7fb3e6;
+  --nak-blue-pale: #bfd7f2;
+  --nak-gold: #d4af37;
+  --nak-white: #ffffff;
+  --nak-gray-bg: #f3f5f7;
+  --nak-gray-border: #d9e1e8;
+  --nak-gray-text: #4a4a4a;
+  --nak-gray-muted: #6b7280;
+  --danger: #b42318;
   --font: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
-  --shadow: 0 10px 40px rgba(0, 0, 0, 0.35);
+  --glass: rgba(255, 255, 255, 0.28);
+  --glass-card: rgba(255, 255, 255, 0.14);
+  --glass-card-gemeinde: rgba(255, 255, 255, 0.18);
+  --glass-border: rgba(255, 255, 255, 0.28);
+  --glass-blur: blur(10px);
+  --shadow: 0 8px 28px rgba(0, 62, 126, 0.07);
+  --text: var(--nak-gray-text);
+  --text-muted: var(--nak-gray-muted);
+  --accent: var(--nak-blue);
+  --accent-strong: var(--nak-gold);
+  --border: var(--nak-gray-border);
+  --surface: var(--glass);
+  --surface-strong: rgba(255, 255, 255, 0.38);
 }
 
 *,
@@ -30,14 +44,14 @@ body {
 body {
   font-family: var(--font);
   color: var(--text);
-  background: #081018;
+  background: var(--nak-gray-bg);
 }
 
 .page {
   position: relative;
   font-family: var(--font);
   color: var(--text);
-  background: #081018;
+  background: var(--nak-gray-bg);
 }
 
 .page-board {
@@ -55,18 +69,30 @@ body {
   position: fixed;
   inset: 0;
   background: url("assets/background.jpeg") center center / cover no-repeat;
+  filter: brightness(0.82) saturate(0.88);
   z-index: -2;
 }
 
 .overlay {
   position: fixed;
   inset: 0;
-  background: var(--bg-overlay);
+  background:
+    linear-gradient(
+      160deg,
+      rgba(0, 62, 126, 0.08) 0%,
+      rgba(0, 74, 153, 0.03) 45%,
+      rgba(191, 215, 242, 0.04) 100%
+    );
   z-index: -1;
 }
 
 .overlay-strong {
-  background: rgba(8, 16, 28, 0.88);
+  background: linear-gradient(
+    160deg,
+    rgba(0, 62, 126, 0.35) 0%,
+    rgba(0, 74, 153, 0.2) 50%,
+    rgba(191, 215, 242, 0.25) 100%
+  );
 }
 
 .site-header {
@@ -83,18 +109,32 @@ body {
   font-size: clamp(1.67rem, 2.26vw, 3.01rem);
   line-height: 1.05;
   max-width: none;
+  color: var(--nak-blue-dark);
+  text-shadow: 0 0 4px rgba(255, 255, 255, 0.9);
 }
 
 .month-label {
   margin: 0.15rem 0 0;
   font-size: clamp(1.6rem, 2vw, 2.51rem);
-  color: var(--accent-strong);
-  font-weight: 600;
+  color: var(--nak-blue);
+  font-weight: 800;
+}
+
+.header-text {
+  background: var(--glass);
+  backdrop-filter: var(--glass-blur);
+  -webkit-backdrop-filter: var(--glass-blur);
+  border: 1px solid var(--glass-border);
+  border-radius: 0.75rem;
+  padding: clamp(0.45rem, 0.8vw, 0.75rem) clamp(0.6rem, 1vw, 1rem);
+  box-shadow: var(--shadow);
 }
 
 .clock-panel {
-  background: var(--surface);
-  border: 1px solid var(--border);
+  background: var(--glass);
+  backdrop-filter: var(--glass-blur);
+  -webkit-backdrop-filter: var(--glass-blur);
+  border: 1px solid var(--glass-border);
   border-radius: 0.75rem;
   padding: clamp(0.4rem, 0.7vw, 0.7rem);
   box-shadow: var(--shadow);
@@ -112,15 +152,40 @@ body {
 }
 
 .clock-face {
-  fill: rgba(255, 255, 255, 0.08);
-  stroke: var(--border);
+  fill: rgba(255, 255, 255, 0.45);
+  stroke: var(--nak-blue-pale);
   stroke-width: 2;
 }
 
 .tick,
 .hand {
-  stroke: var(--text);
+  stroke: var(--nak-blue-dark);
   stroke-linecap: round;
+}
+
+.second-hand {
+  stroke: var(--nak-blue-light);
+  stroke-width: 2;
+}
+
+.clock-center {
+  fill: var(--nak-gold);
+}
+
+.clock-digital {
+  margin: 0.5rem 0 0;
+  text-align: center;
+  font-size: clamp(1.43rem, 1.51vw, 2rem);
+  color: var(--nak-blue-dark);
+  font-weight: 600;
+}
+
+.board-columns {
+  flex: 1;
+  min-height: 0;
+  display: grid;
+  grid-template-columns: 1.35fr 1.025fr 1.025fr;
+  gap: clamp(0.35rem, 0.6vw, 0.75rem);
 }
 
 .tick {
@@ -135,35 +200,12 @@ body {
   stroke-width: 4;
 }
 
-.second-hand {
-  stroke: var(--accent);
-  stroke-width: 2;
-}
-
-.clock-center {
-  fill: var(--accent-strong);
-}
-
-.clock-digital {
-  margin: 0.5rem 0 0;
-  text-align: center;
-  font-size: clamp(1.43rem, 1.51vw, 2rem);
-  color: var(--text-muted);
-  font-weight: 600;
-}
-
-.board-columns {
-  flex: 1;
-  min-height: 0;
-  display: grid;
-  grid-template-columns: 1.35fr 1.025fr 1.025fr;
-  gap: clamp(0.35rem, 0.6vw, 0.75rem);
-}
-
 .column {
   container-type: size;
-  background: var(--surface);
-  border: 1px solid var(--border);
+  background: var(--glass);
+  backdrop-filter: var(--glass-blur);
+  -webkit-backdrop-filter: var(--glass-blur);
+  border: 1px solid var(--glass-border);
   border-radius: 0.75rem;
   padding: clamp(0.25rem, 0.45vw, 0.5rem);
   box-shadow: var(--shadow);
@@ -174,29 +216,29 @@ body {
 }
 
 .column--gemeinde {
-  background: rgba(255, 255, 255, 0.11);
-  border-color: rgba(255, 210, 122, 0.45);
-  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.4), inset 0 0 0 1px rgba(255, 210, 122, 0.12);
+  border-color: rgba(212, 175, 55, 0.45);
+  box-shadow: var(--shadow), inset 3px 0 0 var(--nak-gold);
 }
 
 .column-title {
   margin: 0 0 0.2rem;
-  font-size: clamp(1.37rem, 1.67vw, 2.05rem);
-  color: var(--accent);
-  font-weight: 700;
-  border-bottom: 1px solid var(--border);
+  font-size: clamp(1.65rem, 2.15vw, 2.75rem);
+  color: var(--nak-blue);
+  font-weight: 800;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.35);
   padding-bottom: 0.15rem;
   flex-shrink: 0;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+  text-shadow: 0 0 4px rgba(255, 255, 255, 0.9);
 }
 
 .column--gemeinde .column-title {
-  font-size: clamp(1.52rem, 2.05vw, 2.42rem);
-  color: var(--accent-strong);
-  border-bottom-width: 2px;
-  border-bottom-color: rgba(255, 210, 122, 0.5);
+  font-size: clamp(1.9rem, 2.65vw, 3.25rem);
+  font-weight: 900;
+  color: var(--nak-blue-dark);
+  border-bottom: 2px solid rgba(191, 215, 242, 0.45);
 }
 
 .column-cards {
@@ -210,8 +252,10 @@ body {
 
 .card {
   container-type: size;
-  background: var(--surface-strong);
-  border: 1px solid var(--border);
+  background: var(--glass-card);
+  backdrop-filter: var(--glass-blur);
+  -webkit-backdrop-filter: var(--glass-blur);
+  border: 1px solid rgba(255, 255, 255, 0.22);
   border-radius: 0.4rem;
   padding: 0.15em 0.45em;
   flex: 1 1 0;
@@ -224,8 +268,8 @@ body {
 }
 
 .column--gemeinde .card {
-  background: rgba(255, 255, 255, 0.1);
-  border-color: rgba(255, 255, 255, 0.22);
+  background: var(--glass-card-gemeinde);
+  border-color: rgba(212, 175, 55, 0.28);
 }
 
 .card-line {
@@ -238,11 +282,14 @@ body {
   line-height: 1.15;
   white-space: normal;
   overflow: visible;
+  text-shadow:
+    0 0 3px rgba(255, 255, 255, 0.95),
+    0 1px 8px rgba(255, 255, 255, 0.85);
 }
 
 .card-sep {
-  color: var(--text-muted);
-  opacity: 0.5;
+  color: var(--nak-blue-soft);
+  opacity: 0.85;
   flex-shrink: 0;
 }
 
@@ -257,26 +304,28 @@ body {
 }
 
 .card--gemeinde .card-gemeinde-weekday {
-  color: var(--accent-strong);
+  color: var(--nak-blue-dark);
+  font-weight: 800;
 }
 
 .card--gemeinde .card-gemeinde-date {
-  color: var(--text);
+  color: var(--nak-blue-dark);
   font-size: 1.2em;
   font-weight: 800;
 }
 
 .card--gemeinde .card-gemeinde-time {
-  color: var(--text-muted);
+  color: var(--nak-gray-muted);
   font-weight: 600;
 }
 
 .card--gemeinde .card-gemeinde-status--yes {
-  color: var(--accent);
+  color: var(--nak-blue);
 }
 
 .card--gemeinde .card-gemeinde-status--no {
-  color: #ffb4a2;
+  color: var(--nak-gray-muted);
+  font-style: italic;
 }
 
 .card--gemeinde .card-gemeinde-lead {
@@ -302,21 +351,23 @@ body {
 }
 
 .card--bezirk .card-bezirk-weekday {
-  color: var(--accent-strong);
-  font-weight: 700;
+  color: var(--nak-blue-dark);
+  font-weight: 800;
 }
 
 .card--bezirk .card-bezirk-date {
+  color: var(--nak-blue-dark);
   font-weight: 800;
   font-size: 1.2em;
 }
 
 .card--bezirk .card-bezirk-time {
   font-weight: 600;
-  color: var(--text-muted);
+  color: var(--nak-gray-muted);
 }
 
 .card--bezirk .card-bezirk-title {
+  color: var(--nak-blue-dark);
   font-weight: 700;
 }
 
@@ -328,18 +379,19 @@ body {
 }
 
 .state-loading {
-  background: rgba(255, 255, 255, 0.05);
-  color: var(--text-muted);
+  background: rgba(191, 215, 242, 0.22);
+  color: var(--nak-blue-dark);
 }
 
 .state-empty {
-  background: rgba(255, 255, 255, 0.04);
+  background: rgba(255, 255, 255, 0.18);
   color: var(--text-muted);
   text-align: center;
 }
 
 .state-error {
-  background: rgba(255, 80, 80, 0.15);
+  background: rgba(180, 35, 24, 0.1);
+  border: 1px solid rgba(180, 35, 24, 0.2);
   color: var(--danger);
   margin-bottom: 1rem;
 }
