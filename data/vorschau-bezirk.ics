@@ -4,12 +4,12 @@ PRODID:-//NAK Gemeinde Neustadt//info-display//DE
 CALSCALE:GREGORIAN
 X-WR-CALNAME:Vorschau - Termine Hannover-Südwest
 BEGIN:VEVENT
-SUMMARY:Bezirks-GD. Eingeladen Neustadt u.A.
+SUMMARY:Bezirks-GD BAp Heynes. Übertragung
 DTSTART:20260802T100000
 DTEND:20260802T110000
-UID:vorschau-1dc7aba22b3da89f0f687bfeb329a53c@info-display.local
+UID:vorschau-2938ced670366ceed5d0c19f58de7174@info-display.local
 DESCRIPTION:Wochentag: Sonntag\nDatum: 02.08.2026\nUhrzeit: 10:00\nWas: Be
- zirks-GD. Eingeladen Neustadt u.A.\nOrt: H-Süd
+ zirks-GD BAp Heynes. Übertragung\nOrt: H-Süd
 LOCATION:H-Süd
 END:VEVENT
 BEGIN:VEVENT
