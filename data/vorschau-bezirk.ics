@@ -4,102 +4,146 @@ PRODID:-//NAK Gemeinde Neustadt//info-display//DE
 CALSCALE:GREGORIAN
 X-WR-CALNAME:Vorschau - Termine Hannover-Südwest
 BEGIN:VEVENT
-SUMMARY:Bezirks-GD BAp Heynes. Übertragung
-DTSTART:20260802T100000
-DTEND:20260802T110000
-UID:vorschau-2938ced670366ceed5d0c19f58de7174@info-display.local
-DESCRIPTION:Wochentag: Sonntag\nDatum: 02.08.2026\nUhrzeit: 10:00\nWas: Be
- zirks-GD BAp Heynes. Übertragung\nOrt: H-Süd
-LOCATION:H-Süd
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Probe Bezirkschor 60+
-DTSTART:20260803T160000
-DTEND:20260803T170000
-UID:vorschau-2eb73c7fca3352d83b16dde3f049282c@info-display.local
-DESCRIPTION:Wochentag: Montag\nDatum: 03.08.2026\nUhrzeit: 16:00\nWas: Pro
+DTSTART:20260907T160000
+DTEND:20260907T170000
+UID:vorschau-2ccd34522fb198244ac1f9eec24dba45@info-display.local
+DESCRIPTION:Wochentag: Montag\nDatum: 07.09.2026\nUhrzeit: 16:00\nWas: Pro
  be Bezirkschor 60+\nOrt: Langenhagen
 LOCATION:Langenhagen
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Senioren-Fahrt bis 15.09.
+DTSTART;VALUE=DATE:20260910
+DTEND;VALUE=DATE:20260911
+UID:vorschau-7ab36b25915c96abb1743829fb14a8b9@info-display.local
+DESCRIPTION:Wochentag: Donnerstag\nDatum: 10.09.2026\nWas: Senioren-Fahrt 
+ bis 15.09.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Kinderfreizeit 11. - 13.09.
+DTSTART;VALUE=DATE:20260911
+DTEND;VALUE=DATE:20260912
+UID:vorschau-c89bec39970048ec8ee55e0fa6fab026@info-display.local
+DESCRIPTION:Wochentag: Freitag\nDatum: 11.09.2026\nWas: Kinderfreizeit 11.
+  - 13.09.\nOrt: Müden/Aller
+LOCATION:Müden/Aller
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Jugendtag Mitte-Nord 11. - 13.09. Apostel Vicariesmann
+DTSTART;VALUE=DATE:20260911
+DTEND;VALUE=DATE:20260912
+UID:vorschau-b9f3e927b50cd659f92b9bb9b4be6960@info-display.local
+DESCRIPTION:Wochentag: Freitag\nDatum: 11.09.2026\nWas: Jugendtag Mitte-No
+ rd 11. - 13.09. Apostel Vicariesmann\nOrt: Rotenburg / Wümme
+LOCATION:Rotenburg / Wümme
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Jugendgottesdienst für AP-Bereich Mitte-Nord BAp Heynes
+DTSTART;VALUE=DATE:20260913
+DTEND;VALUE=DATE:20260914
+UID:vorschau-75d6e0da962625e04c2e3c4a057e5cf6@info-display.local
+DESCRIPTION:Wochentag: Sonntag\nDatum: 13.09.2026\nWas: Jugendgottesdienst
+  für AP-Bereich Mitte-Nord BAp Heynes\nOrt: Rotenburg/Wümme
+LOCATION:Rotenburg/Wümme
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Festgottesdienst Apostel Vicariesmann
+DTSTART:20260916T193000
+DTEND:20260916T203000
+UID:vorschau-849c3c76552d338f5eb510ab25cf955c@info-display.local
+DESCRIPTION:Wochentag: Mittwoch\nDatum: 16.09.2026\nUhrzeit: 19:30\nWas: F
+ estgottesdienst Apostel Vicariesmann\nOrt: Hoya
+LOCATION:Hoya
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:GL-Versammlung
-DTSTART:20260813T193000
-DTEND:20260813T203000
-UID:vorschau-32421a3f03360a90a4bd19f2d6d53a19@info-display.local
-DESCRIPTION:Wochentag: Donnerstag\nDatum: 13.08.2026\nUhrzeit: 19:30\nWas:
-  GL-Versammlung\nOrt: Wunstorf
-LOCATION:Wunstorf
+DTSTART:20260917T190000
+DTEND:20260917T200000
+UID:vorschau-3e9b97eaa43e35541bf8975f5a7b6f80@info-display.local
+DESCRIPTION:Wochentag: Donnerstag\nDatum: 17.09.2026\nUhrzeit: 19:00\nWas:
+  GL-Versammlung\nOrt: Online
+LOCATION:Online
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Probe Jugendchor
-DTSTART:20260814T190000
-DTEND:20260814T200000
-UID:vorschau-a1fe29c25e1578704679ef2e490dc4f8@info-display.local
-DESCRIPTION:Wochentag: Freitag\nDatum: 14.08.2026\nUhrzeit: 19:00\nWas: Pr
+DTSTART:20260918T190000
+DTEND:20260918T200000
+UID:vorschau-7a38b1c2f47f32b98e02133bb29283b1@info-display.local
+DESCRIPTION:Wochentag: Freitag\nDatum: 18.09.2026\nUhrzeit: 19:00\nWas: Pr
  obe Jugendchor\nOrt: H-Süd
 LOCATION:H-Süd
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Open-Air-Schulstart-GD
-DTSTART:20260816T100000
-DTEND:20260816T110000
-UID:vorschau-2000444504d3946f5e2bf7a25991b681@info-display.local
-DESCRIPTION:Wochentag: Sonntag\nDatum: 16.08.2026\nUhrzeit: 10:00\nWas: Op
- en-Air-Schulstart-GD\nOrt: Bernwardswiese
-LOCATION:Bernwardswiese
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:GD zum Unterrichtssonntag
-DTSTART:20260823T100000
-DTEND:20260823T110000
-UID:vorschau-28dcee35e2056de4c650fc36c1b3a050@info-display.local
-DESCRIPTION:Wochentag: Sonntag\nDatum: 23.08.2026\nUhrzeit: 10:00\nWas: GD
-  zum Unterrichtssonntag\nOrt: Wunstorf
-LOCATION:Wunstorf
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Konfirmandenunterricht 10 - 14 Uhr
-DTSTART:20260823T100000
-DTEND:20260823T110000
-UID:vorschau-9f79abd74056468a74da09c925a12786@info-display.local
-DESCRIPTION:Wochentag: Sonntag\nDatum: 23.08.2026\nUhrzeit: 10:00\nWas: Ko
- nfirmandenunterricht 10 - 14 Uhr\nOrt: Wunstorf
-LOCATION:Wunstorf
+SUMMARY:Vorsteher-Wochenende 19. - 20.09. Apostel Vicariesmann
+DTSTART;VALUE=DATE:20260919
+DTEND;VALUE=DATE:20260920
+UID:vorschau-443b098d7a4b076c1582c7ca4d61c837@info-display.local
+DESCRIPTION:Wochentag: Samstag\nDatum: 19.09.2026\nWas: Vorsteher-Wochenen
+ de 19. - 20.09. Apostel Vicariesmann\nOrt: Visselhövede
+LOCATION:Visselhövede
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Religionsunterricht 10 - 14 Uhr
-DTSTART:20260823T100000
-DTEND:20260823T110000
-UID:vorschau-112710b2dc72ebdce2c3dd62eaeee334@info-display.local
-DESCRIPTION:Wochentag: Sonntag\nDatum: 23.08.2026\nUhrzeit: 10:00\nWas: Re
- ligionsunterricht 10 - 14 Uhr\nOrt: Wunstorf
-LOCATION:Wunstorf
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Probe Jugendchor
-DTSTART:20260828T190000
-DTEND:20260828T200000
-UID:vorschau-d82cf20a0400507a2d4fbb5e5c034c58@info-display.local
-DESCRIPTION:Wochentag: Freitag\nDatum: 28.08.2026\nUhrzeit: 19:00\nWas: Pr
- obe Jugendchor\nOrt: H-Süd
+DTSTART:20260920T100000
+DTEND:20260920T110000
+UID:vorschau-0ec75416c41374b0e9d1a02662ff7484@info-display.local
+DESCRIPTION:Wochentag: Sonntag\nDatum: 20.09.2026\nUhrzeit: 10:00\nWas: Re
+ ligionsunterricht 10 - 14 Uhr\nOrt: H-Süd
 LOCATION:H-Süd
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Jubiläums-GD (100 Jahre)
-DTSTART:20260830T100000
-DTEND:20260830T110000
-UID:vorschau-3ae3fb8338cc50c1ded5dfc184a3e57e@info-display.local
-DESCRIPTION:Wochentag: Sonntag\nDatum: 30.08.2026\nUhrzeit: 10:00\nWas: Ju
- biläums-GD (100 Jahre)\nOrt: Neustadt
-LOCATION:Neustadt
+SUMMARY:GD zum Unterrichtssonntag
+DTSTART:20260920T100000
+DTEND:20260920T110000
+UID:vorschau-e30b7c74fac6b22304504d148a7ce6cc@info-display.local
+DESCRIPTION:Wochentag: Sonntag\nDatum: 20.09.2026\nUhrzeit: 10:00\nWas: GD
+  zum Unterrichtssonntag\nOrt: H-Süd
+LOCATION:H-Süd
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Jugendgottesdienst H-NO & H-SW
-DTSTART:20260830T110000
-DTEND:20260830T120000
-UID:vorschau-bfe30ff443a06c7faac5f9944128fed3@info-display.local
-DESCRIPTION:Wochentag: Sonntag\nDatum: 30.08.2026\nUhrzeit: 11:00\nWas: Ju
- gendgottesdienst H-NO & H-SW\nOrt: Langenhagen
+SUMMARY:Konfirmandenunterricht 10 - 14 Uhr
+DTSTART:20260920T100000
+DTEND:20260920T110000
+UID:vorschau-069a0da7a1398b54ca6f8d43ac8617f5@info-display.local
+DESCRIPTION:Wochentag: Sonntag\nDatum: 20.09.2026\nUhrzeit: 10:00\nWas: Ko
+ nfirmandenunterricht 10 - 14 Uhr\nOrt: H-Süd
+LOCATION:H-Süd
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Gottesdienst für Senioren Bez. H-NO + H-SW
+DTSTART:20260924T150000
+DTEND:20260924T160000
+UID:vorschau-4e84cf0ef0548ee452de0d68dfe29c8d@info-display.local
+DESCRIPTION:Wochentag: Donnerstag\nDatum: 24.09.2026\nUhrzeit: 15:00\nWas:
+  Gottesdienst für Senioren Bez. H-NO + H-SW\nOrt: H-Süd
+LOCATION:H-Süd
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Festgottesdienst Apostel Vicariesmann
+DTSTART:20260927T100000
+DTEND:20260927T110000
+UID:vorschau-dc3abbef836ec87a2cac3b9303160311@info-display.local
+DESCRIPTION:Wochentag: Sonntag\nDatum: 27.09.2026\nUhrzeit: 10:00\nWas: Fe
+ stgottesdienst Apostel Vicariesmann\nOrt: H-Herrenhausen
+LOCATION:H-Herrenhausen
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Probe Bezirkschor 60+ (vormals 05.10.26)
+DTSTART:20260928T160000
+DTEND:20260928T170000
+UID:vorschau-28ee7d8ffd286e319bab7e45ca5ebc20@info-display.local
+DESCRIPTION:Wochentag: Montag\nDatum: 28.09.2026\nUhrzeit: 16:00\nWas: Pro
+ be Bezirkschor 60+ (vormals 05.10.26)\nOrt: Langenhagen
 LOCATION:Langenhagen
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:GD-Vorbereitung "Erntedank"
+DTSTART:20260928T190000
+DTEND:20260928T200000
+UID:vorschau-361539ea2dbe5cd6af20bf9b314e54f2@info-display.local
+DESCRIPTION:Wochentag: Montag\nDatum: 28.09.2026\nUhrzeit: 19:00\nWas: GD-
+ Vorbereitung "Erntedank"\nOrt: Online
+LOCATION:Online
 END:VEVENT
 END:VCALENDAR

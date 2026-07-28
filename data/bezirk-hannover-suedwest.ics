@@ -4,50 +4,102 @@ PRODID:-//NAK Gemeinde Neustadt//info-display//DE
 CALSCALE:GREGORIAN
 X-WR-CALNAME:Termine Hannover-Südwest
 BEGIN:VEVENT
+SUMMARY:Bezirks-GD BAp Heynes. Übertragung
+DTSTART:20260802T100000
+DTEND:20260802T110000
+UID:bezirk-de7a454bbf595ea295f4a27a9dd2ebf3@info-display.local
+DESCRIPTION:Wochentag: Sonntag\nDatum: 02.08.2026\nUhrzeit: 10:00\nWas: Be
+ zirks-GD BAp Heynes. Übertragung\nOrt: H-Süd
+LOCATION:H-Süd
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Probe Bezirkschor 60+
+DTSTART:20260803T160000
+DTEND:20260803T170000
+UID:bezirk-c71da188e99b5b907bb6abed006c18be@info-display.local
+DESCRIPTION:Wochentag: Montag\nDatum: 03.08.2026\nUhrzeit: 16:00\nWas: Pro
+ be Bezirkschor 60+\nOrt: Langenhagen
+LOCATION:Langenhagen
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:GL-Versammlung
+DTSTART:20260813T193000
+DTEND:20260813T203000
+UID:bezirk-ed4676bc8e779cabc9edfa193cdbec15@info-display.local
+DESCRIPTION:Wochentag: Donnerstag\nDatum: 13.08.2026\nUhrzeit: 19:30\nWas:
+  GL-Versammlung\nOrt: Wunstorf
+LOCATION:Wunstorf
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Probe Jugendchor
-DTSTART:20260703T190000
-DTEND:20260703T200000
-UID:bezirk-811391d660f808823e44daa4a56506bd@info-display.local
-DESCRIPTION:Wochentag: Freitag\nDatum: 03.07.2026\nUhrzeit: 19:00\nWas: Pr
+DTSTART:20260814T190000
+DTEND:20260814T200000
+UID:bezirk-a06393cd04c3bf58df3404034290aeb7@info-display.local
+DESCRIPTION:Wochentag: Freitag\nDatum: 14.08.2026\nUhrzeit: 19:00\nWas: Pr
  obe Jugendchor\nOrt: H-Süd
 LOCATION:H-Süd
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Trauer-Café\, Mail-Adresse: trauerbegleitung@nak-hannover-suedwes
- t.de
-DTSTART:20260705T150000
-DTEND:20260705T160000
-UID:bezirk-8cde5f6ad1ef926a73e4e69003a661c0@info-display.local
-DESCRIPTION:Wochentag: Sonntag\nDatum: 05.07.2026\nUhrzeit: 15:00\nWas: Tr
- auer-Café\, Mail-Adresse: trauerbegleitung@nak-hannover-suedwest.de\nOrt:
-  H-Süd
+SUMMARY:Open-Air-Schulstart-GD
+DTSTART:20260816T100000
+DTEND:20260816T110000
+UID:bezirk-d7385ea969d838e4c44489ac2c59a929@info-display.local
+DESCRIPTION:Wochentag: Sonntag\nDatum: 16.08.2026\nUhrzeit: 10:00\nWas: Op
+ en-Air-Schulstart-GD\nOrt: Bernwardswiese
+LOCATION:Bernwardswiese
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:GD zum Unterrichtssonntag
+DTSTART:20260823T100000
+DTEND:20260823T110000
+UID:bezirk-fdf51837d56313fff5e932c60a9c1c59@info-display.local
+DESCRIPTION:Wochentag: Sonntag\nDatum: 23.08.2026\nUhrzeit: 10:00\nWas: GD
+  zum Unterrichtssonntag\nOrt: Wunstorf
+LOCATION:Wunstorf
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Konfirmandenunterricht 10 - 14 Uhr
+DTSTART:20260823T100000
+DTEND:20260823T110000
+UID:bezirk-5c6489df2c58e39765cefc6b42e494d1@info-display.local
+DESCRIPTION:Wochentag: Sonntag\nDatum: 23.08.2026\nUhrzeit: 10:00\nWas: Ko
+ nfirmandenunterricht 10 - 14 Uhr\nOrt: Wunstorf
+LOCATION:Wunstorf
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Religionsunterricht 10 - 14 Uhr
+DTSTART:20260823T100000
+DTEND:20260823T110000
+UID:bezirk-1ac87820b71bd587c1817d5f3844b1f9@info-display.local
+DESCRIPTION:Wochentag: Sonntag\nDatum: 23.08.2026\nUhrzeit: 10:00\nWas: Re
+ ligionsunterricht 10 - 14 Uhr\nOrt: Wunstorf
+LOCATION:Wunstorf
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Probe Jugendchor
+DTSTART:20260828T190000
+DTEND:20260828T200000
+UID:bezirk-39a3387a3a7aa6e30b0d7e339b246b54@info-display.local
+DESCRIPTION:Wochentag: Freitag\nDatum: 28.08.2026\nUhrzeit: 19:00\nWas: Pr
+ obe Jugendchor\nOrt: H-Süd
 LOCATION:H-Süd
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Probe Bezirkschor 60+ (entfällt)
-DTSTART:20260706T160000
-DTEND:20260706T170000
-UID:bezirk-62678f594592956c60bc9a4ac81657b0@info-display.local
-DESCRIPTION:Wochentag: Montag\nDatum: 06.07.2026\nUhrzeit: 16:00\nWas: Pro
- be Bezirkschor 60+ (entfällt)\nOrt: Langenhagen
+SUMMARY:Jubiläums-GD (100 Jahre)
+DTSTART:20260830T100000
+DTEND:20260830T110000
+UID:bezirk-5bf34b46d41ca7a3e9311869042595f8@info-display.local
+DESCRIPTION:Wochentag: Sonntag\nDatum: 30.08.2026\nUhrzeit: 10:00\nWas: Ju
+ biläums-GD (100 Jahre)\nOrt: Neustadt
+LOCATION:Neustadt
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Jugendgottesdienst H-NO & H-SW
+DTSTART:20260830T110000
+DTEND:20260830T120000
+UID:bezirk-547bdbd1f8f5db84cfb107b25aaf64f9@info-display.local
+DESCRIPTION:Wochentag: Sonntag\nDatum: 30.08.2026\nUhrzeit: 11:00\nWas: Ju
+ gendgottesdienst H-NO & H-SW\nOrt: Langenhagen
 LOCATION:Langenhagen
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Chorprobe für Bezirks-GD
-DTSTART:20260720T193000
-DTEND:20260720T203000
-UID:bezirk-549b9c685616673d8ae87e3588f7c3ce@info-display.local
-DESCRIPTION:Wochentag: Montag\nDatum: 20.07.2026\nUhrzeit: 19:30\nWas: Cho
- rprobe für Bezirks-GD\nOrt: H-Badenstedt
-LOCATION:H-Badenstedt
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Chorprobe für Bezirks-GD
-DTSTART:20260731T193000
-DTEND:20260731T203000
-UID:bezirk-1f9392f5ef5191f3adae7fff639a5399@info-display.local
-DESCRIPTION:Wochentag: Freitag\nDatum: 31.07.2026\nUhrzeit: 19:30\nWas: Ch
- orprobe für Bezirks-GD\nOrt: H-Süd
-LOCATION:H-Süd
 END:VEVENT
 END:VCALENDAR
