@@ -4,76 +4,75 @@ PRODID:-//NAK Gemeinde Neustadt//info-display//DE
 CALSCALE:GREGORIAN
 X-WR-CALNAME:Termine Gemeinde Neustadt
 BEGIN:VEVENT
-SUMMARY:Hab 2\,20
-DTSTART:20260802T100000
-DTEND:20260802T110000
-UID:gemeinde-aee1b3eb576270a8e1d6f7eaddba1e2c@info-display.local
-DESCRIPTION:Wochentag: Sonntag\nDatum: 02.08.2026\nUhrzeit: 10:00\nTextwor
- t: Hab 2\,20\nDienstleiter: Bezirks Gottesdienst Übertragung
+SUMMARY:Jes 41\,10
+DTSTART;VALUE=DATE:20260902
+DTEND;VALUE=DATE:20260903
+UID:gemeinde-9a0d67c16c7be7a98adfeea432860228@info-display.local
+DESCRIPTION:Wochentag: Mittwoch\nDatum: 02.09.2026\nUhrzeit: Kein Gottesdi
+ enst\nTextwort: Jes 41\,10\nDienstleiter: kein GD
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Ps 95\,6
-DTSTART;VALUE=DATE:20260805
-DTEND;VALUE=DATE:20260806
-UID:gemeinde-c3fb78e117325c9e155b56d8787b8d10@info-display.local
-DESCRIPTION:Wochentag: Mittwoch\nDatum: 05.08.2026\nUhrzeit: Kein Gottesdi
- enst\nTextwort: Ps 95\,6\nDienstleiter: -
+SUMMARY:1 Joh 5\,7–8
+DTSTART:20260906T100000
+DTEND:20260906T110000
+UID:gemeinde-12bbd3eb31c6498a5db774e0034ac498@info-display.local
+DESCRIPTION:Wochentag: Sonntag\nDatum: 06.09.2026\nUhrzeit: 10:00\nTextwor
+ t: 1 Joh 5\,7–8\nDienstleiter: Pr Tolle
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:2 Kor 5\,20
-DTSTART:20260809T100000
-DTEND:20260809T110000
-UID:gemeinde-d2b6c9b9f3d7f8efbbd5a4e23431e690@info-display.local
-DESCRIPTION:Wochentag: Sonntag\nDatum: 09.08.2026\nUhrzeit: 10:00\nTextwor
- t: 2 Kor 5\,20\nDienstleiter: Pr Stolze
+SUMMARY:5. Mose 4\, 24
+DTSTART;VALUE=DATE:20260909
+DTEND;VALUE=DATE:20260910
+UID:gemeinde-4b41504fabe336999489e4fa98a6a06d@info-display.local
+DESCRIPTION:Wochentag: Mittwoch\nDatum: 09.09.2026\nUhrzeit: Kein Gottesdi
+ enst\nTextwort: 5. Mose 4\, 24\nDienstleiter: kein GD
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Eph 5\,20
-DTSTART;VALUE=DATE:20260812
-DTEND;VALUE=DATE:20260813
-UID:gemeinde-01322f0a08311c25fbb75b3a4451557b@info-display.local
-DESCRIPTION:Wochentag: Mittwoch\nDatum: 12.08.2026\nUhrzeit: Kein Gottesdi
- enst\nTextwort: Eph 5\,20\nDienstleiter: -
+SUMMARY:Apg 5\,42
+DTSTART:20260913T100000
+DTEND:20260913T110000
+UID:gemeinde-badf9d68e5d5a6d8f3b1d1165d38405c@info-display.local
+DESCRIPTION:Wochentag: Sonntag\nDatum: 13.09.2026\nUhrzeit: 10:00\nTextwor
+ t: Apg 5\,42\nDienstleiter: Ev Grove
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Joh 17\,20–21a
-DTSTART:20260816T100000
-DTEND:20260816T110000
-UID:gemeinde-7648ff6fbc1dbe55253aa20fcc1e35e7@info-display.local
-DESCRIPTION:Wochentag: Sonntag\nDatum: 16.08.2026\nUhrzeit: 10:00\nTextwor
- t: Joh 17\,20–21a\nDienstleiter: Pr Hiemer
+SUMMARY:Lukas 18\, 40.41
+DTSTART;VALUE=DATE:20260916
+DTEND;VALUE=DATE:20260917
+UID:gemeinde-453c5a0135ad26a426a04ada169cc8e7@info-display.local
+DESCRIPTION:Wochentag: Mittwoch\nDatum: 16.09.2026\nUhrzeit: Kein Gottesdi
+ enst\nTextwort: Lukas 18\, 40.41\nDienstleiter: kein GD
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:2 Mose 3\,11–12a
-DTSTART;VALUE=DATE:20260819
-DTEND;VALUE=DATE:20260820
-UID:gemeinde-b4e87c803d5ecbe878d4a2e2cb2d962c@info-display.local
-DESCRIPTION:Wochentag: Mittwoch\nDatum: 19.08.2026\nUhrzeit: Kein Gottesdi
- enst\nTextwort: 2 Mose 3\,11–12a\nDienstleiter: -
+SUMMARY:5 Mose 28\,2
+DTSTART:20260920T100000
+DTEND:20260920T110000
+UID:gemeinde-4658aa9169f57e60d15de43a16729393@info-display.local
+DESCRIPTION:Wochentag: Sonntag\nDatum: 20.09.2026\nUhrzeit: 10:00\nTextwor
+ t: 5 Mose 28\,2\nDienstleiter: Pr Pfeiffer
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:2 Mose 20\,12a
-DTSTART:20260823T100000
-DTEND:20260823T110000
-UID:gemeinde-2698e24371c41c2c45975d02e8aa6cff@info-display.local
-DESCRIPTION:Wochentag: Sonntag\nDatum: 23.08.2026\nUhrzeit: 10:00\nTextwor
- t: 2 Mose 20\,12a\nDienstleiter: Pr Streichert
+SUMMARY:Kol 3\,15
+DTSTART;VALUE=DATE:20260923
+DTEND;VALUE=DATE:20260924
+UID:gemeinde-2cd35b4b40f57aa7839a6366c1273d2e@info-display.local
+DESCRIPTION:Wochentag: Mittwoch\nDatum: 23.09.2026\nUhrzeit: Kein Gottesdi
+ enst\nTextwort: Kol 3\,15\nDienstleiter: kein GD
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Lk 17\,5–6
-DTSTART;VALUE=DATE:20260826
-DTEND;VALUE=DATE:20260827
-UID:gemeinde-04b2a590497c54a477e26535ceba0dab@info-display.local
-DESCRIPTION:Wochentag: Mittwoch\nDatum: 26.08.2026\nUhrzeit: Kein Gottesdi
- enst\nTextwort: Lk 17\,5–6\nDienstleiter: -
+SUMMARY:Jes 40\,31
+DTSTART:20260927T100000
+DTEND:20260927T110000
+UID:gemeinde-5fb7c270b06e4648aab7cf6368f6aa30@info-display.local
+DESCRIPTION:Wochentag: Sonntag\nDatum: 27.09.2026\nUhrzeit: 10:00\nTextwor
+ t: Jes 40\,31\nDienstleiter: Pr Herzig
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:2 Mose 20\,13
-DTSTART:20260830T100000
-DTEND:20260830T110000
-UID:gemeinde-5ee7438549d57b649795e39ce8f74a6e@info-display.local
-DESCRIPTION:Wochentag: Sonntag\nDatum: 30.08.2026\nUhrzeit: 10:00\nTextwor
- t: 2 Mose 20\,13\nDienstleiter: Jubiläumsfeier - Familiengottesdienst BE 
- Christmann
+SUMMARY:1 Kön 19\,7
+DTSTART;VALUE=DATE:20260930
+DTEND;VALUE=DATE:20261001
+UID:gemeinde-89ac342e5d6267c8b16e351f9b044c70@info-display.local
+DESCRIPTION:Wochentag: Mittwoch\nDatum: 30.09.2026\nUhrzeit: Kein Gottesdi
+ enst\nTextwort: 1 Kön 19\,7\nDienstleiter: kein GD
 END:VEVENT
 END:VCALENDAR
