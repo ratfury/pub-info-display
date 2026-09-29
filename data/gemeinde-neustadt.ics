@@ -4,75 +4,67 @@ PRODID:-//NAK Gemeinde Neustadt//info-display//DE
 CALSCALE:GREGORIAN
 X-WR-CALNAME:Termine Gemeinde Neustadt
 BEGIN:VEVENT
-SUMMARY:Jes 41\,10
-DTSTART;VALUE=DATE:20260902
-DTEND;VALUE=DATE:20260903
-UID:gemeinde-9a0d67c16c7be7a98adfeea432860228@info-display.local
-DESCRIPTION:Wochentag: Mittwoch\nDatum: 02.09.2026\nUhrzeit: Kein Gottesdi
- enst\nTextwort: Jes 41\,10\nDienstleiter: kein GD
+SUMMARY:Ps 19\,2
+DTSTART:20261004T100000
+DTEND:20261004T110000
+UID:gemeinde-f82ba32fbe256845a4db2da9c0f653f9@info-display.local
+DESCRIPTION:Wochentag: Sonntag\nDatum: 04.10.2026\nUhrzeit: 10:00\nTextwor
+ t: Ps 19\,2\nDienstleiter: Pr Hildebrandt
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:1 Joh 5\,7–8
-DTSTART:20260906T100000
-DTEND:20260906T110000
-UID:gemeinde-12bbd3eb31c6498a5db774e0034ac498@info-display.local
-DESCRIPTION:Wochentag: Sonntag\nDatum: 06.09.2026\nUhrzeit: 10:00\nTextwor
- t: 1 Joh 5\,7–8\nDienstleiter: Pr Tolle
+SUMMARY:1 Joh 4\,14
+DTSTART;VALUE=DATE:20261007
+DTEND;VALUE=DATE:20261008
+UID:gemeinde-e024d0d5172adf36753c2c65b2877eff@info-display.local
+DESCRIPTION:Wochentag: Mittwoch\nDatum: 07.10.2026\nTextwort: 1 Joh 4\,14\
+ nDienstleiter: kein GD
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:5. Mose 4\, 24
-DTSTART;VALUE=DATE:20260909
-DTEND;VALUE=DATE:20260910
-UID:gemeinde-4b41504fabe336999489e4fa98a6a06d@info-display.local
-DESCRIPTION:Wochentag: Mittwoch\nDatum: 09.09.2026\nUhrzeit: Kein Gottesdi
- enst\nTextwort: 5. Mose 4\, 24\nDienstleiter: kein GD
+SUMMARY:Offb 4\,11
+DTSTART:20261011T100000
+DTEND:20261011T110000
+UID:gemeinde-f40f0fc487f8db30f35b938db3601f63@info-display.local
+DESCRIPTION:Wochentag: Sonntag\nDatum: 11.10.2026\nUhrzeit: 10:00\nTextwor
+ t: Offb 4\,11\nDienstleiter: Pr Streichert
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Apg 5\,42
-DTSTART:20260913T100000
-DTEND:20260913T110000
-UID:gemeinde-badf9d68e5d5a6d8f3b1d1165d38405c@info-display.local
-DESCRIPTION:Wochentag: Sonntag\nDatum: 13.09.2026\nUhrzeit: 10:00\nTextwor
- t: Apg 5\,42\nDienstleiter: Ev Grove
+SUMMARY:Jes 40\,11
+DTSTART;VALUE=DATE:20261014
+DTEND;VALUE=DATE:20261015
+UID:gemeinde-a06335a4cee04f7b44faea03c78d78d5@info-display.local
+DESCRIPTION:Wochentag: Mittwoch\nDatum: 14.10.2026\nTextwort: Jes 40\,11\n
+ Dienstleiter: kein GD
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Lukas 18\, 40.41
-DTSTART;VALUE=DATE:20260916
-DTEND;VALUE=DATE:20260917
-UID:gemeinde-453c5a0135ad26a426a04ada169cc8e7@info-display.local
-DESCRIPTION:Wochentag: Mittwoch\nDatum: 16.09.2026\nUhrzeit: Kein Gottesdi
- enst\nTextwort: Lukas 18\, 40.41\nDienstleiter: kein GD
+SUMMARY:Ps 40\,6
+DTSTART:20261018T100000
+DTEND:20261018T110000
+UID:gemeinde-49eb118a11fe2825eaa439903132c6cb@info-display.local
+DESCRIPTION:Wochentag: Sonntag\nDatum: 18.10.2026\nUhrzeit: 10:00\nTextwor
+ t: Ps 40\,6\nDienstleiter: Pr Herzig
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:5 Mose 28\,2
-DTSTART:20260920T100000
-DTEND:20260920T110000
-UID:gemeinde-4658aa9169f57e60d15de43a16729393@info-display.local
-DESCRIPTION:Wochentag: Sonntag\nDatum: 20.09.2026\nUhrzeit: 10:00\nTextwor
- t: 5 Mose 28\,2\nDienstleiter: Pr Pfeiffer
+SUMMARY:Mt 7\,13a
+DTSTART;VALUE=DATE:20261021
+DTEND;VALUE=DATE:20261022
+UID:gemeinde-e7525410a88278bebb6a7b1146489db3@info-display.local
+DESCRIPTION:Wochentag: Mittwoch\nDatum: 21.10.2026\nTextwort: Mt 7\,13a\nD
+ ienstleiter: kein GD
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Kol 3\,15
-DTSTART;VALUE=DATE:20260923
-DTEND;VALUE=DATE:20260924
-UID:gemeinde-2cd35b4b40f57aa7839a6366c1273d2e@info-display.local
-DESCRIPTION:Wochentag: Mittwoch\nDatum: 23.09.2026\nUhrzeit: Kein Gottesdi
- enst\nTextwort: Kol 3\,15\nDienstleiter: kein GD
+SUMMARY:keine Angabe
+DTSTART:20261024T180000
+DTEND:20261024T190000
+UID:gemeinde-4b6dcdba6d8635b4e8d42d18abe06922@info-display.local
+DESCRIPTION:Wochentag: Samstag\nDatum: 24.10.2026\nUhrzeit: 18:00\nTextwor
+ t: keine Angabe\nDienstleiter: BE Christmann
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Jes 40\,31
-DTSTART:20260927T100000
-DTEND:20260927T110000
-UID:gemeinde-5fb7c270b06e4648aab7cf6368f6aa30@info-display.local
-DESCRIPTION:Wochentag: Sonntag\nDatum: 27.09.2026\nUhrzeit: 10:00\nTextwor
- t: Jes 40\,31\nDienstleiter: Pr Herzig
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:1 Kön 19\,7
-DTSTART;VALUE=DATE:20260930
-DTEND;VALUE=DATE:20261001
-UID:gemeinde-89ac342e5d6267c8b16e351f9b044c70@info-display.local
-DESCRIPTION:Wochentag: Mittwoch\nDatum: 30.09.2026\nUhrzeit: Kein Gottesdi
- enst\nTextwort: 1 Kön 19\,7\nDienstleiter: kein GD
+SUMMARY:Röm 8\,25
+DTSTART;VALUE=DATE:20261028
+DTEND;VALUE=DATE:20261029
+UID:gemeinde-b9982d6779b89402cc512bf281988974@info-display.local
+DESCRIPTION:Wochentag: Mittwoch\nDatum: 28.10.2026\nTextwort: Röm 8\,25\n
+ Dienstleiter: kein GD
 END:VEVENT
 END:VCALENDAR
