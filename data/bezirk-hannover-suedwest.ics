@@ -4,92 +4,164 @@ PRODID:-//NAK Gemeinde Neustadt//info-display//DE
 CALSCALE:GREGORIAN
 X-WR-CALNAME:Termine Hannover-Südwest
 BEGIN:VEVENT
-SUMMARY:Probe Jugendchor
-DTSTART:20261002T190000
-DTEND:20261002T200000
-UID:bezirk-ea66b6548772a64f4ae8c4c2e89ba1d0@info-display.local
-DESCRIPTION:Wochentag: Freitag\nDatum: 02.10.2026\nUhrzeit: 19:00\nWas: Pr
- obe Jugendchor\nOrt: H-Süd
+SUMMARY:GD Ü-StAp mit Nachbereitung\, BE Sperling
+DTSTART:20261101T100000
+DTEND:20261101T110000
+UID:bezirk-b1e2a68f3355f5e21d44261dfd271ebc@info-display.local
+DESCRIPTION:Wochentag: Sonntag\nDatum: 01.11.2026\nUhrzeit: 10:00\nWas: GD
+  Ü-StAp mit Nachbereitung\, BE Sperling\nOrt: Mardorf Jugendherberge
+LOCATION:Mardorf Jugendherberge
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ü-GD für Entschlafene\, StAp Mutschler
+DTSTART:20261101T100000
+DTEND:20261101T110000
+UID:bezirk-266a9981faa971cb489d4d525ed7bf0c@info-display.local
+DESCRIPTION:Wochentag: Sonntag\nDatum: 01.11.2026\nUhrzeit: 10:00\nWas: Ü
+ -GD für Entschlafene\, StAp Mutschler\nOrt: Tuttlingen
+LOCATION:Tuttlingen
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Trauer-Café\, Mail-Adresse: trauerbegleitung@nak-hannover-suedwes
+ t.de\, Schw Scharf
+DTSTART:20261101T150000
+DTEND:20261101T160000
+UID:bezirk-e2aafc8ee1aa516f5145a87accb57be8@info-display.local
+DESCRIPTION:Wochentag: Sonntag\nDatum: 01.11.2026\nUhrzeit: 15:00\nWas: Tr
+ auer-Café\, Mail-Adresse: trauerbegleitung@nak-hannover-suedwest.de\, Sch
+ w Scharf\nOrt: H-Süd
 LOCATION:H-Süd
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Konfirmandenunterricht 10–14 Uhr
-DTSTART:20261004T100000
-DTEND:20261004T110000
-UID:bezirk-75f1f89e316023f3f9c65500a25ab9fd@info-display.local
-DESCRIPTION:Wochentag: Sonntag\nDatum: 04.10.2026\nUhrzeit: 10:00\nWas: Ko
- nfirmandenunterricht 10–14 Uhr\nOrt: Wunstorf
-LOCATION:Wunstorf
+SUMMARY:Probe Bezirkschor 60+\, Di Liedtke
+DTSTART:20261102T160000
+DTEND:20261102T170000
+UID:bezirk-bb842d2e08708eea16e40805c8d64a6c@info-display.local
+DESCRIPTION:Wochentag: Montag\nDatum: 02.11.2026\nUhrzeit: 16:00\nWas: Pro
+ be Bezirkschor 60+\, Di Liedtke\nOrt: Langenhagen
+LOCATION:Langenhagen
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Religionsunterricht 10–14 Uhr
-DTSTART:20261004T100000
-DTEND:20261004T110000
-UID:bezirk-9f98ec91df1f73c8a61b4f906b611ec7@info-display.local
-DESCRIPTION:Wochentag: Sonntag\nDatum: 04.10.2026\nUhrzeit: 10:00\nWas: Re
- ligionsunterricht 10–14 Uhr\nOrt: Wunstorf
-LOCATION:Wunstorf
+SUMMARY:Apostel im Dialog\, Ap Viciariesmann
+DTSTART:20261105T193000
+DTEND:20261105T203000
+UID:bezirk-aacceb403afbebf56b550e05dabc1b70@info-display.local
+DESCRIPTION:Wochentag: Donnerstag\nDatum: 05.11.2026\nUhrzeit: 19:30\nWas:
+  Apostel im Dialog\, Ap Viciariesmann\nOrt: H-Süd
+LOCATION:H-Süd
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Festgottesdienst mit Gemeinde Bad Nenndorf
-DTSTART:20261004T160000
-DTEND:20261004T170000
-UID:bezirk-eec4fb8e2e04f0f1575014e1cbc9f1dd@info-display.local
-DESCRIPTION:Wochentag: Sonntag\nDatum: 04.10.2026\nUhrzeit: 16:00\nWas: Fe
- stgottesdienst mit Gemeinde Bad Nenndorf\nOrt: Wunstorf
-LOCATION:Wunstorf
+SUMMARY:GD Intervisionsgruppe H-SW 1\, Prin Schumacher
+DTSTART:20261108T100000
+DTEND:20261108T110000
+UID:bezirk-e7ba13406639aae92c43171b9f085217@info-display.local
+DESCRIPTION:Wochentag: Sonntag\nDatum: 08.11.2026\nUhrzeit: 10:00\nWas: GD
+  Intervisionsgruppe H-SW 1\, Prin Schumacher\nOrt: H-Herrenhausen
+LOCATION:H-Herrenhausen
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:GL-Versammlung
-DTSTART:20261015T190000
-DTEND:20261015T200000
-UID:bezirk-7d9a242d00947465b753453e1f8e5767@info-display.local
-DESCRIPTION:Wochentag: Donnerstag\nDatum: 15.10.2026\nUhrzeit: 19:00\nWas:
-  GL-Versammlung\nOrt: Online
-LOCATION:Online
+SUMMARY:Friedensandacht\, BE Sperling
+DTSTART:20261110T190000
+DTEND:20261110T200000
+UID:bezirk-0ead12f6c96f60c80906c8b8f5cdeec1@info-display.local
+DESCRIPTION:Wochentag: Dienstag\nDatum: 10.11.2026\nUhrzeit: 19:00\nWas: F
+ riedensandacht\, BE Sperling\nOrt: H-Herrenhausen
+LOCATION:H-Herrenhausen
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Ende der Sommerzeit
-DTSTART:20261025T020000
-DTEND:20261025T030000
-UID:bezirk-05adf69e544c8759551067f2a6207ca2@info-display.local
-DESCRIPTION:Wochentag: Sonntag\nDatum: 25.10.2026\nUhrzeit: 02:00\nWas: En
- de der Sommerzeit
+SUMMARY:Festgottesdienst\, Ap Viciariesmann
+DTSTART:20261111T193000
+DTEND:20261111T203000
+UID:bezirk-6da78f1c88d4b3570d4662d7b3f62e96@info-display.local
+DESCRIPTION:Wochentag: Mittwoch\nDatum: 11.11.2026\nUhrzeit: 19:30\nWas: F
+ estgottesdienst\, Ap Viciariesmann\nOrt: Springe
+LOCATION:Springe
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Festgottesdienst für Geistliche
-DTSTART:20261025T100000
-DTEND:20261025T110000
-UID:bezirk-968b7daa40bc84ccd82bb08fff41bcce@info-display.local
-DESCRIPTION:Wochentag: Sonntag\nDatum: 25.10.2026\nUhrzeit: 10:00\nWas: Fe
- stgottesdienst für Geistliche\nOrt: H-Süd und Wunstorf
-LOCATION:H-Süd und Wunstorf
+SUMMARY:Probe Jugendchor\, Di Killenberg
+DTSTART:20261113T190000
+DTEND:20261113T200000
+UID:bezirk-02302f97b1013eaa4555ec9f4ff532ff@info-display.local
+DESCRIPTION:Wochentag: Freitag\nDatum: 13.11.2026\nUhrzeit: 19:00\nWas: Pr
+ obe Jugendchor\, Di Killenberg\nOrt: H-Süd
+LOCATION:H-Süd
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Aufzeichnung vom 25.10. GD für Geistliche
-DTSTART:20261028T193000
-DTEND:20261028T203000
-UID:bezirk-6685633169fdfaf1e2374299a3180515@info-display.local
-DESCRIPTION:Wochentag: Mittwoch\nDatum: 28.10.2026\nUhrzeit: 19:30\nWas: A
- ufzeichnung vom 25.10. GD für Geistliche\nOrt: H-Badenstedt
+SUMMARY:Konfirmandenunterricht 11–15 Uhr\, kombiniert mit Jugend-GD\, Sc
+ hw Sperling
+DTSTART:20261115T110000
+DTEND:20261115T120000
+UID:bezirk-9f19a593e3aebb552ec7f70b44048292@info-display.local
+DESCRIPTION:Wochentag: Sonntag\nDatum: 15.11.2026\nUhrzeit: 11:00\nWas: Ko
+ nfirmandenunterricht 11–15 Uhr\, kombiniert mit Jugend-GD\, Schw Sperlin
+ g\nOrt: H-Süd
+LOCATION:H-Süd
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Religionsunterricht 11–15 Uhr\, kombiniert mit Jugend-GD\, Schw 
+ Brummermann
+DTSTART:20261115T110000
+DTEND:20261115T120000
+UID:bezirk-90d53bb5e8c78d6e99be6e5aed024e54@info-display.local
+DESCRIPTION:Wochentag: Sonntag\nDatum: 15.11.2026\nUhrzeit: 11:00\nWas: Re
+ ligionsunterricht 11–15 Uhr\, kombiniert mit Jugend-GD\, Schw Brummerman
+ n\nOrt: H-Süd
+LOCATION:H-Süd
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Jugendgottesdienst H-NO & H-SW\, gemeinsam mit Reli & Konfa\, Pr S
+ awosch
+DTSTART:20261115T110000
+DTEND:20261115T120000
+UID:bezirk-376773da9197002bbcfe3fb2d4fa586c@info-display.local
+DESCRIPTION:Wochentag: Sonntag\nDatum: 15.11.2026\nUhrzeit: 11:00\nWas: Ju
+ gendgottesdienst H-NO & H-SW\, gemeinsam mit Reli & Konfa\, Pr Sawosch\nOr
+ t: H-Süd
+LOCATION:H-Süd
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Jugend-GD und GD zum Unterrichtssonntag
+DTSTART:20261115T110000
+DTEND:20261115T120000
+UID:bezirk-12ab1b5afe29ee2c0af71692cd33cdf3@info-display.local
+DESCRIPTION:Wochentag: Sonntag\nDatum: 15.11.2026\nUhrzeit: 11:00\nWas: Ju
+ gend-GD und GD zum Unterrichtssonntag\nOrt: H-Süd
+LOCATION:H-Süd
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Festgottesdienst\, Ap Viciariesmann
+DTSTART:20261118T193000
+DTEND:20261118T203000
+UID:bezirk-e8fbee9b2f7a738a2287f7f35cc71034@info-display.local
+DESCRIPTION:Wochentag: Mittwoch\nDatum: 18.11.2026\nUhrzeit: 19:30\nWas: F
+ estgottesdienst\, Ap Viciariesmann\nOrt: Neustadt
+LOCATION:Neustadt
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Festgottesdienst\, Ap Viciariesmann
+DTSTART:20261122T100000
+DTEND:20261122T110000
+UID:bezirk-3036bd9c01084ae4853e44c1e270176c@info-display.local
+DESCRIPTION:Wochentag: Sonntag\nDatum: 22.11.2026\nUhrzeit: 10:00\nWas: Fe
+ stgottesdienst\, Ap Viciariesmann\nOrt: H-Badenstedt
 LOCATION:H-Badenstedt
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Glaubenswochenende 30.10.–01.11.
-DTSTART;VALUE=DATE:20261030
-DTEND;VALUE=DATE:20261031
-UID:bezirk-b6fc2ded82af4f1d1577337d8f71ee65@info-display.local
-DESCRIPTION:Wochentag: Freitag\nDatum: 30.10.2026\nWas: Glaubenswochenende
-  30.10.–01.11.\nOrt: Mardorf
-LOCATION:Mardorf
+SUMMARY:GD Intervisionsgruppe H-SW 1\, Pr Lorentz
+DTSTART:20261122T100000
+DTEND:20261122T110000
+UID:bezirk-d20b7e53cd6a53155c1dcfbefdadd7e5@info-display.local
+DESCRIPTION:Wochentag: Sonntag\nDatum: 22.11.2026\nUhrzeit: 10:00\nWas: GD
+  Intervisionsgruppe H-SW 1\, Pr Lorentz\nOrt: Pattensen
+LOCATION:Pattensen
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Probe Jugendchor
-DTSTART:20261030T190000
-DTEND:20261030T200000
-UID:bezirk-6e651957e929241581c8c4a83e8faa47@info-display.local
-DESCRIPTION:Wochentag: Freitag\nDatum: 30.10.2026\nUhrzeit: 19:00\nWas: Pr
- obe Jugendchor\nOrt: H-Süd
+SUMMARY:Probe Jugendchor\, Di Killenberg
+DTSTART:20261127T190000
+DTEND:20261127T200000
+UID:bezirk-0948869b775c17ab2d4e968f0ff99d98@info-display.local
+DESCRIPTION:Wochentag: Freitag\nDatum: 27.11.2026\nUhrzeit: 19:00\nWas: Pr
+ obe Jugendchor\, Di Killenberg\nOrt: H-Süd
 LOCATION:H-Süd
 END:VEVENT
 END:VCALENDAR

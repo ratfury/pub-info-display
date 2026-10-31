@@ -4,67 +4,75 @@ PRODID:-//NAK Gemeinde Neustadt//info-display//DE
 CALSCALE:GREGORIAN
 X-WR-CALNAME:Termine Gemeinde Neustadt
 BEGIN:VEVENT
-SUMMARY:Ps 19\,2
-DTSTART:20261004T100000
-DTEND:20261004T110000
-UID:gemeinde-f82ba32fbe256845a4db2da9c0f653f9@info-display.local
-DESCRIPTION:Wochentag: Sonntag\nDatum: 04.10.2026\nUhrzeit: 10:00\nTextwor
- t: Ps 19\,2\nDienstleiter: Pr Hildebrandt
+SUMMARY:KeineAngabe
+DTSTART:20261101T100000
+DTEND:20261101T110000
+UID:gemeinde-6f9a9c74c8d90924d71ff20575210398@info-display.local
+DESCRIPTION:Wochentag: Sonntag\nDatum: 01.11.2026\nUhrzeit: 10:00\nTextwor
+ t: KeineAngabe\nDienstleiter: Stp GD für Entschlafene
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:1 Joh 4\,14
-DTSTART;VALUE=DATE:20261007
-DTEND;VALUE=DATE:20261008
-UID:gemeinde-e024d0d5172adf36753c2c65b2877eff@info-display.local
-DESCRIPTION:Wochentag: Mittwoch\nDatum: 07.10.2026\nTextwort: 1 Joh 4\,14\
- nDienstleiter: kein GD
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Offb 4\,11
-DTSTART:20261011T100000
-DTEND:20261011T110000
-UID:gemeinde-f40f0fc487f8db30f35b938db3601f63@info-display.local
-DESCRIPTION:Wochentag: Sonntag\nDatum: 11.10.2026\nUhrzeit: 10:00\nTextwor
- t: Offb 4\,11\nDienstleiter: Pr Streichert
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Jes 40\,11
-DTSTART;VALUE=DATE:20261014
-DTEND;VALUE=DATE:20261015
-UID:gemeinde-a06335a4cee04f7b44faea03c78d78d5@info-display.local
-DESCRIPTION:Wochentag: Mittwoch\nDatum: 14.10.2026\nTextwort: Jes 40\,11\n
- Dienstleiter: kein GD
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Ps 40\,6
-DTSTART:20261018T100000
-DTEND:20261018T110000
-UID:gemeinde-49eb118a11fe2825eaa439903132c6cb@info-display.local
-DESCRIPTION:Wochentag: Sonntag\nDatum: 18.10.2026\nUhrzeit: 10:00\nTextwor
- t: Ps 40\,6\nDienstleiter: Pr Herzig
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Mt 7\,13a
-DTSTART;VALUE=DATE:20261021
-DTEND;VALUE=DATE:20261022
-UID:gemeinde-e7525410a88278bebb6a7b1146489db3@info-display.local
-DESCRIPTION:Wochentag: Mittwoch\nDatum: 21.10.2026\nTextwort: Mt 7\,13a\nD
+SUMMARY:Kol 3\,12
+DTSTART;VALUE=DATE:20261104
+DTEND;VALUE=DATE:20261105
+UID:gemeinde-2af9c264ba30a1044b5ce526d3168327@info-display.local
+DESCRIPTION:Wochentag: Mittwoch\nDatum: 04.11.2026\nTextwort: Kol 3\,12\nD
  ienstleiter: kein GD
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:keine Angabe
-DTSTART:20261024T180000
-DTEND:20261024T190000
-UID:gemeinde-4b6dcdba6d8635b4e8d42d18abe06922@info-display.local
-DESCRIPTION:Wochentag: Samstag\nDatum: 24.10.2026\nUhrzeit: 18:00\nTextwor
- t: keine Angabe\nDienstleiter: BE Christmann
+SUMMARY:Phil 3\,20–21
+DTSTART:20261108T100000
+DTEND:20261108T110000
+UID:gemeinde-be35dffc1d7e9b59aeeab19d14c3ceeb@info-display.local
+DESCRIPTION:Wochentag: Sonntag\nDatum: 08.11.2026\nUhrzeit: 10:00\nTextwor
+ t: Phil 3\,20–21\nDienstleiter: Pr Köhler / Din Möser\, C.
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Röm 8\,25
-DTSTART;VALUE=DATE:20261028
-DTEND;VALUE=DATE:20261029
-UID:gemeinde-b9982d6779b89402cc512bf281988974@info-display.local
-DESCRIPTION:Wochentag: Mittwoch\nDatum: 28.10.2026\nTextwort: Röm 8\,25\n
- Dienstleiter: kein GD
+SUMMARY:Gal 6\,9
+DTSTART;VALUE=DATE:20261111
+DTEND;VALUE=DATE:20261112
+UID:gemeinde-5101970c843523ac0dde174b0fabf838@info-display.local
+DESCRIPTION:Wochentag: Mittwoch\nDatum: 11.11.2026\nTextwort: Gal 6\,9\nDi
+ enstleiter: kein GD
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Pred 12\,14
+DTSTART:20261115T100000
+DTEND:20261115T110000
+UID:gemeinde-e44f49f935aae5a78f1231a412e44699@info-display.local
+DESCRIPTION:Wochentag: Sonntag\nDatum: 15.11.2026\nUhrzeit: 10:00\nTextwor
+ t: Pred 12\,14\nDienstleiter: Pr Lorentz / Di Neubauer
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ps 41\,5
+DTSTART:20261118T193000
+DTEND:20261118T203000
+UID:gemeinde-ffda305b434a69ca33e939adccdfee0a@info-display.local
+DESCRIPTION:Wochentag: Mittwoch\nDatum: 18.11.2026\nUhrzeit: 19:30\nTextwo
+ rt: Ps 41\,5\nDienstleiter: Ap Viciariesmann
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Offb 21\,5
+DTSTART:20261122T100000
+DTEND:20261122T110000
+UID:gemeinde-952d4747c314d2ac905c36b33184aac6@info-display.local
+DESCRIPTION:Wochentag: Sonntag\nDatum: 22.11.2026\nUhrzeit: 10:00\nTextwor
+ t: Offb 21\,5\nDienstleiter: Pr Herzig
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Phil 4\,4
+DTSTART;VALUE=DATE:20261125
+DTEND;VALUE=DATE:20261126
+UID:gemeinde-aa77bb53e232e4c7f367a25761bc9476@info-display.local
+DESCRIPTION:Wochentag: Mittwoch\nDatum: 25.11.2026\nTextwort: Phil 4\,4\nD
+ ienstleiter: kein GD
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lk 1\,30–31
+DTSTART:20261129T100000
+DTEND:20261129T110000
+UID:gemeinde-4f5eb8fc8cbea35d6153c34cf10deb39@info-display.local
+DESCRIPTION:Wochentag: Sonntag\nDatum: 29.11.2026\nUhrzeit: 10:00\nTextwor
+ t: Lk 1\,30–31\nDienstleiter: Pr Tolle
 END:VEVENT
 END:VCALENDAR
